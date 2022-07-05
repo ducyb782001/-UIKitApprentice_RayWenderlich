@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04394F132874263D00D839A1 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04394F122874263D00D839A1 /* ChecklistItem.swift */; };
+		04394F15287437EA00D839A1 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04394F14287437EA00D839A1 /* AddItemViewController.swift */; };
 		04ACE00A2873EC17000A0E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACE0092873EC17000A0E5E /* AppDelegate.swift */; };
 		04ACE00C2873EC17000A0E5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACE00B2873EC17000A0E5E /* SceneDelegate.swift */; };
-		04ACE00E2873EC17000A0E5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACE00D2873EC17000A0E5E /* ViewController.swift */; };
+		04ACE00E2873EC17000A0E5E /* CheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACE00D2873EC17000A0E5E /* CheckListViewController.swift */; };
 		04ACE0112873EC17000A0E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ACE00F2873EC17000A0E5E /* Main.storyboard */; };
 		04ACE0132873EC1A000A0E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ACE0122873EC1A000A0E5E /* Assets.xcassets */; };
 		04ACE0162873EC1A000A0E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ACE0142873EC1A000A0E5E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04394F122874263D00D839A1 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		04394F14287437EA00D839A1 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		04ACE0062873EC17000A0E5E /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ACE0092873EC17000A0E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04ACE00B2873EC17000A0E5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04ACE00D2873EC17000A0E5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04ACE00D2873EC17000A0E5E /* CheckListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListViewController.swift; sourceTree = "<group>"; };
 		04ACE0102873EC17000A0E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04ACE0122873EC1A000A0E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04ACE0152873EC1A000A0E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +62,13 @@
 			children = (
 				04ACE0092873EC17000A0E5E /* AppDelegate.swift */,
 				04ACE00B2873EC17000A0E5E /* SceneDelegate.swift */,
-				04ACE00D2873EC17000A0E5E /* ViewController.swift */,
+				04ACE00D2873EC17000A0E5E /* CheckListViewController.swift */,
 				04ACE00F2873EC17000A0E5E /* Main.storyboard */,
 				04ACE0122873EC1A000A0E5E /* Assets.xcassets */,
 				04ACE0142873EC1A000A0E5E /* LaunchScreen.storyboard */,
 				04ACE0172873EC1A000A0E5E /* Info.plist */,
+				04394F122874263D00D839A1 /* ChecklistItem.swift */,
+				04394F14287437EA00D839A1 /* AddItemViewController.swift */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04ACE00E2873EC17000A0E5E /* ViewController.swift in Sources */,
+				04394F15287437EA00D839A1 /* AddItemViewController.swift in Sources */,
+				04ACE00E2873EC17000A0E5E /* CheckListViewController.swift in Sources */,
 				04ACE00A2873EC17000A0E5E /* AppDelegate.swift in Sources */,
 				04ACE00C2873EC17000A0E5E /* SceneDelegate.swift in Sources */,
+				04394F132874263D00D839A1 /* ChecklistItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +302,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +330,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
